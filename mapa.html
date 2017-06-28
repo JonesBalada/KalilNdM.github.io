@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link href="estiloso.css" type="text/css" rel="stylesheet">
+
+        <title>Meu mapa</title>
+    </head>
+    <body>
+         <div id="apresentacao">
+         <h1>Teste Mapa Google API</h1>
+        <form method="post" action="" id="map.html">
+            <fieldset>
+                <legend>Google Maps</legend>   
+
+                <div class="campos">
+                    <label for="txtEndereco">Endereço:</label>
+                    <input type="text" id="txtEndereco" name="txtEndereco" />
+                </div>
+                <div>
+                    <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa" />
+                </div>
+                
+                <div id="mapa" style="height: 500px; width: 1000px">
+                </div>
+                
+                <div>
+                    <input type="submit" value="Enviar" name="btnEnviar" />
+                </div>
+                </div>
+                <input type="hidden" id="txtLatitude" name="txtLatitude" />
+                <input type="hidden" id="txtLongitude" name="txtLongitude" />
+            </fieldset>
+        </form>
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDcyjD_BBiaKEmdhqtvBtadLO9Nn0_J384 &amp;sensor=false"></script>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="Mapa.js"></script>
+        <script type="text/javascript" src="jquery-ui.custom.ui.js"></script>
+    </body>
+
+</html>
