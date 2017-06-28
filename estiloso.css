@@ -1,0 +1,17 @@
+body {
+font-family: "Georgia";
+background: #141E30;
+ background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+ background: linear-gradient(-45deg, #35577D, #141E30);
+ margin: 0;
+ padding: 0
+}
+
+h1 {
+  color: #FFF;
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: center;
+  width: 60%;
+}
+
